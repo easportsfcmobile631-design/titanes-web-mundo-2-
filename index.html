@@ -1,1 +1,6 @@
-
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>titanes web mundo 2</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="logo">titanes web mundo 2 - mi tienda oficial</div><nav><a href="index.html">inicio</a><a href="tienda1.html">tienda1</a><a href="tienda2.html">tienda2</a></nav></header>
+<section class="hero"><h1>titanes mi tienda oficial - 60 paginas x 15 imagenes = 900 productos</h1><p style="background:#ffcc00;color:#000;padding:8px 16px;border-radius:20px;display:inline-block;margin-top:10px;font-weight:800">fundador: jesús eduardo martínez carrillo</p></section>
+<div style="padding:20px 4%"><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:7px" id="lista"></div></div>
+<script>let l=document.getElementById('lista');for(let i=1;i<=60;i++){l.innerHTML+=`<a href="tienda${i}.html" style="background:#222;color:#fff;padding:9px;border-radius:8px;text-align:center;text-decoration:none;text-transform:lowercase;font-size:11px">tienda${i}.html<br>15 productos</a>`}</script>
+</body></html>
